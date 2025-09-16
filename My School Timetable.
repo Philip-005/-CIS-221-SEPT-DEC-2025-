@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Timetable</h2>
+    <table>
+        <tr>
+            <th>Day/Time</th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>CIS 221</td>
+            <td></td>
+            <td>CIM 207</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>CIR 201</td>
+            <td>CIR 203</td>
+            <td>CIM 217</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>CIM 207</td>
+            <td>CIR 207</td>
+            <td>CIR 201</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>CIM 207</td>
+            <td>CIS 211</td>
+            <td>CIR 203</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
