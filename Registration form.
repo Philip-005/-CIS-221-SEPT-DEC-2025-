@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title> Forms </title>
+    </head>
+    <body>
+        <p> Fill the form bellow </p>
+        <form action="" method="post" name="registration">
+            <p>
+                Full name: <br/>
+                <input type="text" name="name" value="Enter full name" maxlength="20"/>
+            </p>
+            <p>
+                Email Address: <br/>
+                <input type="email" name="email" value="Enter your email address" maxlength="20"/>
+            </p>
+            <p>
+                Phone number: <br/>
+                <input type="tel" name="contact" value="Your phone number" maxlength="10"/>
+            </p>
+            <p>
+                Passport: <br/>
+                <input type="image" name="passport" value="Attach your passport" maxlength="20"/>
+            </p>
+            <p>
+                Date of birth: <br/>
+                <input type="date" name="date" value="Date of birth"/>
+            </p>
+            <p>
+                Gender: <br/>
+                <input type="radio" name="name" value="Male" /> Male <br/>
+                <input type="radio" name="name" value="Female"/> Female
+            </p>
+            <p>
+                Age: <br/>
+                <input type="number" name="Age" value="Enter your age" maxlength="5"/>
+            </p>
+            <p>
+                Select your favourite unit: 
+                <input type="checkbox"/> CIR 203
+                <input type="checkbox"/> CIR 211
+                <input type="checkbox"/> CIR 204
+                <input type="checkbox"/> CIT 115
+            </p>
+            <p>
+                Reset: <br/>
+                <input type="reset" name="reset" value="reset my form"/>
+            </p>
+             <p>
+                Submit: <br/>
+                <input type="submit" name="submit" value="Submit"/>
+            </p>
+        </form>
+    </body>
+</html>
